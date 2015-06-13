@@ -3,14 +3,20 @@ development:
   host: localhost
   database: whiteboard_development
   template: template0
+  user: postgres
+  passowrd: postgres
 
 test:
   adapter: postgresql
   host: localhost
   database: whiteboard_test
   template: template0
+  user: postgres
+  passowrd: postgres
 
 production:
   adapter: postgresql
   host: localhost
   database: whiteboard_production
+  user: postgres
+  passowrd: postgres
